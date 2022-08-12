@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+:root{
+    --main-bg-color:whitesmoke;
+    ;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+
+  background-color: whitesmoke;
+  height: 10vh;
+  width: 100%;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 28px;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.LOGO {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2vh;
+  font-family: "Great Vibes";
+  font-size: 7vh;
+}
+.cbfornav{
+    display: none;
+}
+.cross{
+    color: whitesmoke;
+}
+.footer{
+    text-align: center;
+    height: 8vh;
+    background-color: whitesmoke;
+    display: block;
+    justify-content: center;
+    width: 100vw;
+}
+.home{
+min-height: calc(90vh);
+
+
+}
+img{
+  min-height: calc(100vh - 10vh - 6vh);
+  width: 100%;
+ 
+}
+.home{
+  position: relative;
+  text-align: center;
+}
+.textoverimage{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 4vw;
+  
+}
+.textoverimage1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+  
+}
+.home{
+ 
+background-image: url("asset/portfollio.jpeg");
+height: auto;
+  z-index: -1;
+}
+.spanforname{
+  color: yellow;
+}
+.myphoto{
+  width: 30%;
+  height: 30%;
+}
+table{
+  border: 2px solid black;
+}
+.aleft{
+float: left;
+width: 40%;
+
+}
+.aright{
+  float: right;
+  position: absolute;
+  bottom: -40%;
+  align-items: center;
+  
+}
+.about{
+ 
+    min-height: 50vh;
+}
+.secabout{
+ display: flex;
+align-items: center;
+justify-content: center;
+margin: 34px;
+}
+.myphotos{
+  height: 5vh;
+  width: 50vw;
+ position: relative;
+ left: 25vw;
+}
+.aboutme{
+  margin: 34px;
+}
+.myport{
+ position: relative;
+  background-image: url("asset/portfollio.jpeg");
+
+    z-index: -1;
+    height: auto;
+  }
+  .myport{
+    min-height: calc(60vh);
+   }
+    .secabouts{
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+    font-size: 3vw;
+    padding-top: 4vh;
+    }
+    .downport{
+      color: white;
+      display: f;
+      justify-content: center;
+      align-items: center;
+      font-size: 5vw;
+      position: absolute;
+       top: 48%;
+       left: 20%;
+    }
+    .downports{
+      color: yellow;
+      text-decoration: none;
+     
+    }
+    .conp
+    {
+      position: absolute;
+     background-image: url("asset/istockphoto-1201366596-612x612.jpg");
+     height: auto;
+     width: 100%;
+     background-size: cover;
+     z-index: -1;
+    }
+    .conp{
+      min-height: calc(60vh);
+    }
+    .conp{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .formdata{
+      padding: 14px;
+      margin: 2px;
+    }
+    .btn{
+      background-color: black;
+     
+  
+    }
+    .fs{
+      background-color: rgb(221, 106, 45);
+    }
+    .cfont{
+      font-family: 'Playfair Display', serif;
+      color: azure;
+      text-align: center;
+    }
+    .btn1{
+      display: flex;
+      justify-content: center;
+      padding: 14px;
+ 
+    }
+    .btext{
+      color: white;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5em;
+    }
+    

@@ -1,0 +1,250 @@
+@media (max-width: 850px) {
+  nav{
+    position: fixed;
+  }
+  nav ul {
+    position: fixed;
+    top: -100%;
+    background-color: whitesmoke;
+    height: 50vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: 1s;
+    z-index: 3;
+  }
+
+  nav .cross i {
+    color: black;
+    margin-right: 3vh;
+    font-size: 5vh;
+    margin-top: 3vh;
+  }
+  #click:checked ~ ul {
+    top: 10vh;
+    
+  }
+  #click:checked ~ .cross i::before {
+    content: "\f00d";
+    color: black;
+  }
+  .n {
+    display: none;
+  }
+}
+.home{
+  min-height: calc(100vh - 4vh -4vh);
+  }
+  
+@media (max-width: 280px){
+  nav{
+     width: 300px;
+ 
+  }
+  .footer{
+    width: 300px;
+    display: flex;
+    height: 4vh;
+    font-size: 4vh;
+  }
+  .home{
+    min-height: calc(100vh - 4vh -4vh);
+    }
+ }
+ @media (max-width: 1500px){
+  
+    .textoverimage{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      color: aliceblue;
+        transform: translate(-50%, -50%);
+        font-size: 4vw;
+      
+    }
+    .textoverimage1{
+      position: absolute;
+      top: 48%;
+      left: 50%;
+      color: aliceblue;
+        transform: translate(-50%, -50%);
+        font-size: 2vw;
+      
+  }
+}
+@media (max-width: 1150px){
+  
+  .textoverimage{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: aliceblue;
+      transform: translate(-50%, -50%);
+      font-size: 4vw;
+    
+  }
+  .textoverimage1{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    color: aliceblue;
+      transform: translate(-50%, -50%);
+      font-size: 2vw;
+    
+}
+}
+@media (max-width: 950px){
+  
+  .textoverimage{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: aliceblue;
+      transform: translate(-50%, -50%);
+      font-size: 4vw;
+    
+  }
+  .textoverimage1{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    color: aliceblue;
+      transform: translate(-50%, -50%);
+      font-size: 2vw;
+    
+}
+}
+@media (max-width: 750px){
+  
+  .textoverimage{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: aliceblue;
+      transform: translate(-50%, -50%);
+      font-size: 4vw;
+    
+  }
+  .textoverimage1{
+    position: absolute;
+    top: 442;
+    left: 50%;
+    color: aliceblue;
+      transform: translate(-50%, -50%);
+      font-size: 2vw;
+    
+}
+}
+ 
+@media (max-width: 650px){
+  
+  .textoverimage{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: aliceblue;
+      transform: translate(-50%, -50%);
+      font-size: 4vw;
+    
+  }
+  .textoverimage1{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    color: aliceblue;
+      transform: translate(-50%, -50%);
+      font-size: 2vw;
+    
+}
+}
+@media (max-width: 850px){
+  
+  .aleft{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+   
+  }
+  .aright{
+    display: block;
+    bottom: -145%;
+    font-size: 1rem;
+    margin: 12px;
+  }
+}
+@media (max-width: 800px){
+  
+  .aleft{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+   
+  }
+  .aright{
+    display: block;
+    bottom: -140%;
+    font-size: 1rem;
+    margin: 12px;
+  }
+}
+ 
+@media (max-width: 750px){
+  
+  .aleft{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+   
+  }
+  .aright{
+    display: block;
+    bottom: -135%;
+    font-size: 1rem;
+    margin: 12px;
+  }
+}
+ 
+@media (max-width: 700px){
+  
+  .aleft{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+   
+  }
+  .aright{
+    display: block;
+    bottom: -125%;
+    font-size: 1rem;
+    margin: 12px;
+  }
+}
+ 
+@media (max-width: 600px){
+  
+  .aleft{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+   
+  }
+  .aright{
+    display: block;
+    bottom: -120%;
+    font-size: 1rem;
+    margin: 12px;
+  }
+}
+ .myphotos{
+  z-index: ;
+ }
